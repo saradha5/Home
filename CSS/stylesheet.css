@@ -1,0 +1,183 @@
+ <style type="text/css" >
+    p {
+      margin: 0px;
+        
+    }
+    h1 {
+      margin: 0px;
+    }
+    h2 {
+      margin: 0px;
+    }
+    h3 {
+      margin: 0px;
+    }
+    h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+        padding: 0;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: rgb(107, 107, 132);
+    }
+    html, body {
+    background: #F5CAEB; /* Beccapurple */
+    margin: 0;
+
+    }
+    body {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: 80%;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 2.5% 2.5% 0;
+        background: white;
+        line-height: 1.8;
+        color: #570863;
+        min-height: 800px;
+
+    }
+#imglogo
+{
+        display: inline-block;
+ float: left;
+	text-align:center;
+    height: 35%;
+    width: 35%;
+}
+#pg_login
+{
+        height: 100px;
+   text-align: right;
+border-bottom: 5px solid black;    
+
+}
+#my-menu-nav
+{
+   text-align: left
+    height: 70px;
+    background-color: #FC2C9D;
+    border-bottom: 5px solid #7A1A62;
+    border-top: 5px solid #7A1A62;
+    position:absolute;
+width: 80%;
+}
+
+#my-menu-nav ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+    margin-left: 15px;
+	padding:0
+}
+
+#my-menu-nav ul a
+{
+	display:block;
+    color:#740E59;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#my-menu-nav ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#my-menu-nav ul li.main-menu-list
+{
+	// background:#ddd
+}
+
+#my-menu-nav ul li:hover
+{
+background:#f6f6f6;
+}
+
+#my-menu-nav ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#FC2C9D;
+	padding:0
+}
+
+#my-menu-nav ul ul li
+{
+	float:none;
+	width:200px;        
+}
+
+#my-menu-nav ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#my-menu-nav ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#my-menu-nav ul li:hover > ul
+{
+	display:block
+}
+#img-list
+{
+    vertical-align:middle;
+    Top:35%;
+    //height: 100px;
+    align-content: center;
+    
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 23%;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#pagefooter
+{
+     font-family: Verdana, Geneva, sans-serif;
+    font-size: 60%;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    line-height: 1.8;
+    text-align: right;
+    border-top: 2px solid #7A1A62;
+    align-items: baseline;
+    
+}
+
+
+  </style>
