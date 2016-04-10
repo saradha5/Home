@@ -6,6 +6,7 @@
   <title>Sarah Soft Technologies</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="JS/App_Javascript.js"></script>
 </head>
 
 <body>
@@ -42,7 +43,8 @@
     
 	<div id="wrapper">  
     <div id="register">
-			<form > 
+			<form name='registration' onSubmit="return formValidation();">  
+
                 <fieldset>
                 <legend> Registeration Information</legend>
 				<p> 
@@ -62,7 +64,7 @@
 					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO" size="50"/>
 				</p>
 				<p class="signin button"> 
-					<input type="submit" value="Sign up"/> 
+					<input input type="submit" name="submit" value="Sign up"/> 
 				</p>
 				<p class="change_link">  
 					Already a member ?

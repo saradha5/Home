@@ -1,123 +1,178 @@
 <!DOCTYPE html>
 <html>
+    <head>
+      <meta charset="utf-8">
 
-<head>
-  <meta charset="utf-8">
-  <title>Sarah Soft Technologies</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-</head>
-
+        <title>Sarah Soft Technologies</title><meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="CSS/jquery-ui.css">
+        <script src = "http://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src = "http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <script>
+            $(function() {
+                        $( "#tabs" ).tabs();
+            });        
+        </script>
+    </head>
 <body>
-  <a href="Home.html">  <img src="images/Logo1.png" id='imglogo'></a>
-      <div id='pg_login'>
-        <a href='Login.html'>Login</a>    
-        <a href='Register.html'>Register</a>
+    <a href="Home.html">  <img src="images/Logo1.png" id="imglogo"></a>
+    <div id="pg_login">
+        <a href="Login.html">Login</a>    
+        <a href="Register.html">Register</a>
     </div>
-<div id="my-menu-nav">
-<ul>
-  <li class="main-menu-list">
-      <a href="Home.html">Home</a></li>
-  <li><a href="#">Technologies</a>
-    <ul>
-      <li><a href="WebTechnology.html">Web Technology</a></li>
-      <li><a href="#">Database</a></li>
-    </ul>
-  </li>
-  <li><a href="#">About</a>
-    <ul>
-        <li><a href="About.html">About</a>
-  
-      <li><a href="Gallery.html">Gallery</a></li>
-      <li><a href="References.html">References</a></li>
+    <div id="my-menu-nav">
+        <ul>
+          <li class="main-menu-list">
+              <a href="Home.html">Home</a></li>
+          <li><a href="#">Technologies</a>
+            <ul>
+              <li><a href="WebTechnology.html">Web Technology</a></li>
+              <li><a href="#">Database</a></li>
+            </ul>
+          </li>
+          <li><a href="#">About</a>
+            <ul>
+                <li><a href="About.html">About</a>
 
-    </ul>
-  </li>
-  <li><a href="contact.html">Contact</a></li>
+              </li><li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="References.html">References</a></li>
 
-</ul>
-</div>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </div>
     <br>
     <br>
     <br>
     <br>
-<div id="img-list">
-    <div class="img">
-  <a target="_blank" href="/images/people.png">
-    <img src="/images/people.png" alt="Technology Leaders" width="300" height="200">
-  </a>
-  <div class="desc"><a href='#leadtech'>Leading Technology Consultants </a>
-                       </div>
-</div>
+    <div id="img-list">
+        <div class="img">
+            <a target="_blank" >
+                <img height="200" width="300" src="images/people.png" alt="Technology Leaders">
+                
+            </a>
+            <div class="desc"><a href="#leadtech" >Leading Technology Consultants </a>
+            </div>
+        </div>
 
-<div class="img">
-  <a target="_blank" href="/images/icon-healthcare.png">
-    <img src="/images/icon-healthcare.png" alt="Love for client" width="300" height="200">
-  </a>
-  <div class="desc"><a href='#clientneed'>Understands client needs from the heart</a></div>
-</div>
+        <div class="img">
+          <a target="_blank">
+            <img height="200" width="300" src="images/icon-healthcare.png" alt="Love for client">
+          </a>
+          <div class="desc"><a href="#clientneed">Understands client needs from the heart</a></div>
+        </div>
 
-<div class="img">
-  <a target="_blank" href="images/secure.png">
-    <img src="images/secure.png" alt="System Security" width="300" height="200">
-  </a>
-    <div class="desc"><a href='#security'>Stay away from Hacker by Experts in Security</a></div>
-</div>
+        <div class="img">
+          <a target="_blank">
+            <img src="images/secure.png" alt="System Security" height="200" width="300">
+          </a>
+            <div class="desc"><a href="#security">Stay away from Hacker by Experts in Security</a></div>
+        </div>
 
-<div class="img">
-  <a target="_blank" href="images/Proposal%20Leads.png">
-    <img src="images/Proposal%20Leads.png" alt="New Business" width="300" height="200">
-  </a>
-  <div class="desc"><a href='#proposal'>Innovative Leaders to Bring new business</a></div>
-</div>
+        <div class="img">
+          <a target="_blank">
+            <img src="images/Proposal%20Leads.png" alt="New Business" height="200" width="300">
+          </a>
+          <div class="desc"><a href="#proposal">Innovative Leaders to Bring new business</a></div>
+        </div>
 
     </div>
-    <div>
-    <a name='leadtech'  >
-    <h3>Leading Technology Consultants</h3></a>
-    <p>
-        In management, information technology consulting (also called IT consulting, computer consultancy, business and technology services, computing consultancy, technology consulting, and IT advisory) as a field of activity focuses on advising organizations on how best to use information technology (IT) in achieving their business objectives. In addition to providing advice, IT consultancies often estimate, manage, implement, deploy, and administer IT systems on behalf of their client organizations - a practice known as "outsourcing".
-         <a href='https://en.wikipedia.org/wiki/Information_technology_consulting'>[more reading]</a>
-        </p>    
-    <h3>
-        
-    <a name='clientneed'  >
-        Understands client needs from the heart</a>
-        </h3>
-    <p>
-        Business requirements are often listed in a Business Requirements Document or BRD. The emphasis in a BRD is on what is required, rather than on how to achieve it, which is usually delegated to a Systems Requirements Specification or Document (SRS or SRD) or other variation such as a Functional Specification Document. While supposedly describing the product, system, or software from an external perspective, such documents often define the product/system/software requirements in the context of a chosen technology (a solution approach or architecture). Further confusion often arises when people writing BRDs do not understand the distinctions; and consequently many BRDs actually describe requirements of a product, system, or software.
-         <a href='https://en.wikipedia.org/wiki/Business_requirements'>[more reading]</a>
-        </p>
-    <h3>
-        
-        <a name='security'  >Security Champions</a></h3>
+    <br>
+    <br>
+    <br>
+
+<div id="tabs">
+     <ul>
+        <li><a href="#fragment-1"><span>Leading Technology Consultants</span></a></li>
+        <li><a href="#fragment-2"><span>Understands client needs from the heart</span></a></li>
+        <li><a href="#fragment-3"><span>Security Champions</span></a></li>
+         <li><a href="#fragment-4"><span>Proposal Development</span></a></li>
+      </ul>
+    <div id="fragment-1">
+
+            <a name="leadtech">
+            <h3>Leading Technology Consultants</h3></a>
+            <p>
+                In management, information technology consulting (also called IT
+                consulting, computer consultancy, business and technology services,
+                computing consultancy, technology consulting, and IT advisory) as a
+                field of activity focuses on advising organizations on how best to use
+                information technology (IT) in achieving their business objectives. In
+                addition to providing advice, IT consultancies often estimate, manage,
+                implement, deploy, and administer IT systems on behalf of their client
+                organizations - a practice known as "outsourcing". <a href="https://en.wikipedia.org/wiki/Information_technology_consulting">[more reading]</a>
+                </p>    
+            <h3>
+    </div>   
+    <div id="fragment-2">
+
+            <a name="clientneed">
+                Understands client needs from the heart</a>
+                </h3>
+            <p>
+        Business requirements are often listed in a Business Requirements
+        Document or BRD. The emphasis in a BRD is on what is required, rather
+        than on how to achieve it, which is usually delegated to a Systems
+        Requirements Specification or Document (SRS or SRD) or other variation
+        such as a Functional Specification Document. While supposedly
+        describing the product, system, or software from an external
+        perspective, such documents often define the product/system/software
+        requirements in the context of a chosen technology (a solution approach
+        or architecture). Further confusion often arises when people writing
+        BRDs do not understand the distinctions; and consequently many BRDs
+        actually describe requirements of a product, system, or software. <a href="https://en.wikipedia.org/wiki/Business_requirements">[more reading]</a>
+                </p>
+            <h3>
+    </div>
+    <div id="fragment-3">
+
+        <a name="security">Security Champions</a></h3>
         <p>
-        Security is the degree of resistance to, or protection from, harm. It applies to any vulnerable and valuable asset, such as a person, dwelling, community, item, nation, or organization.
-As noted by the Institute for Security and Open Methodologies (ISECOM) in the OSSTMM 3, security provides "a form of protection where a separation is created between the assets and the threat." These separations are generically called "controls," and sometimes include changes to the asset or the threat.
-Security has two dialogues. Negative dialogue is about danger, risk, threat and etc. Positive dialogue is about opportunities, Interests, profits and etc. Negative dialogue needs military equipment, armies, police. Positive dialogue needs social capital, Education, social interaction.
-            <a href='https://en.wikipedia.org/wiki/Security'>[more reading]</a>
+            Security is the degree of resistance to, or protection from, harm. It
+            applies to any vulnerable and valuable asset, such as a person,
+            dwelling, community, item, nation, or organization.
+            As noted by the Institute for Security and Open Methodologies (ISECOM)
+            in the OSSTMM 3, security provides "a form of protection where a
+            separation is created between the assets and the threat." These
+            separations are generically called "controls," and sometimes include
+            changes to the asset or the threat.
+            Security has two dialogues. Negative dialogue is about danger, risk,
+            threat and etc. Positive dialogue is about opportunities, Interests,
+            profits and etc. Negative dialogue needs military equipment, armies,
+            police. Positive dialogue needs social capital, Education, social
+            interaction. <a href="https://en.wikipedia.org/wiki/Security">[more reading]</a>
         </p>
         <h3>
-            <a name='proposal'  >Proposal Development</a></h3>
+    </div>
+    <div id="fragment-4">
+
+        <a name="proposal">Proposal Development</a></h3>
         <p>
-        A business proposal is a written offer from a seller to a prospective buyer. Business proposals are often a key step in the complex sales process—i.e., whenever a buyer considers more than price in a purchase.[1]
-A proposal puts the buyer's requirements in a context that favors the seller's products and services, and educates the buyer about the capabilities of the seller in satisfying their needs.[2]
-The professional organization devoted to the advancement of the art and science of proposal development is the Association of Proposal Management Professionals.
-            <a href='https://en.wikipedia.org/wiki/Proposal_(business)'>[more reading]</a>
+            A business proposal is a written offer from a seller to a prospective
+            buyer. Business proposals are often a key step in the complex sales
+            process—i.e., whenever a buyer considers more than price in a
+            purchase.[1]
+            A proposal puts the buyer's requirements in a context that favors the
+            seller's products and services, and educates the buyer about the
+            capabilities of the seller in satisfying their needs.[2]
+            The professional organization devoted to the advancement of the art and
+            science of proposal development is the Association of Proposal
+            Management Professionals. <a href="https://en.wikipedia.org/wiki/Proposal_%28business%29">[more reading]</a>
         </p>
     </div>
-    
+</div>
+ 
+
 
     <div>
        
-    <div id='pagefooter'>
+    <div id="pagefooter">
 <p>
     Saradha Sugumar<br>
     Harrisburg University of Science and Technology<br>
     326 Market St, Harrisburg, PA 17101
 </p>
         </div>
-</body>
-
-
-        </html>
+</div></body></html>

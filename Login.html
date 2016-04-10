@@ -6,6 +6,7 @@
   <title>Sarah Soft Technologies</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="JS/App_Javascript.js"></script>
 </head>
 
 <body>
@@ -44,7 +45,7 @@
     	<div id="wrapper">
 
     <div id="login">
-			<form> 
+			<form name='login' onSubmit="return loginformValidation();"> 
                 <fieldset>
                     <legend>Personal information:</legend>
 
@@ -63,7 +64,7 @@
 					<label for="loginkeeping">Keep me logged in</label>
 				</p>
 				<p class="login button"> 
-					<input type="submit" value="Login" /> 
+					<input type="submit" name="submit" value="Login" /> 
 				</p>
 				<p class="change_link">
 					Not a member yet ?
